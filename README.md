@@ -7,6 +7,7 @@ ER Diagram:
 
 Physician:
 
+
 ●	employeeid – this is a unique ID of a physician
 
 ●	name – this is the name of a physician
@@ -17,6 +18,8 @@ Physician:
 
 
 department:
+
+
 ●	departmentid – this is a unique ID for a department
 
 ●	name – this is the name of a department
@@ -25,6 +28,7 @@ department:
 
 
 affiliated_with:
+
 
 ●	physician – this is the ID of the physicians which is referencing to the column employeeid of the physician table
 
@@ -37,6 +41,7 @@ affiliated_with:
 
 procedure:
 
+
 ●	code – this is the unique ID of a medical procedure
 
 ●	name – the name of the medical procedure
@@ -45,6 +50,7 @@ procedure:
 
 
 trained_in:
+
 
 ●	physician – this is ID of the physicians which is referencing to the column employeeid of the physician table
 
@@ -58,6 +64,7 @@ trained_in:
 
 
 patient:
+
 
 ●	ssn – this is a unique ID for each patient
 
@@ -75,6 +82,7 @@ table
 
 nurse:
 
+
 ●	employeeid – this is the unique ID for a nurse
 
 ●	name – name of the nurses
@@ -87,6 +95,7 @@ nurse:
 
 
 appointment:
+
 
 ●	appointmentid – this is the unique ID for an appointment
 
@@ -106,6 +115,7 @@ table
 
 medication:
 
+
 ●	code – this is the unique ID for a medicine
 
 ●	name – this is the name of the medicine
@@ -116,6 +126,7 @@ medication:
 
 
 prescribes:
+
 
 ●	physician – this is the ID of the physician referencing to the employeeid column of the physician table
 
@@ -135,6 +146,7 @@ of appointment table
 
 block:
 
+
 ●	blockfloor – ID of the floor
 
 ●	blockcode - ID of the block
@@ -143,6 +155,7 @@ block:
 
 
 room:
+
 
 ●	roomnumber – this is the unique ID of a room
 
@@ -175,6 +188,7 @@ blockcode columns are refercing to the combination of blockfloor and blockcode c
 
 stay:
 
+
 ●	stayid - this is unique ID for the admission
 
 ●	patient – this is the ID of the patient which is referencing the ssn column of patient table
@@ -187,6 +201,7 @@ stay:
 
 
 undergoes:
+
 
 ●	patient - this is ID of the patient which is referencing to the ssn column of the patient table
 
