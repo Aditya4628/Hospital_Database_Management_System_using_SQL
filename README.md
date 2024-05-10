@@ -1,6 +1,8 @@
 # Hospital_Database_Management_System_using_SQL
 
 ER Diagram:
+
+
 ![image](https://github.com/Aditya4628/Hospital_Database_Management_System_using_SQL/assets/120693555/37b4cdc1-c001-4f2c-b891-cbf544be65ff)
 
 Physician:
